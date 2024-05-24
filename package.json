@@ -10,7 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/db": "^0.10.6",
+    "@astrojs/db": "^0.11.4",
+    "@astrojs/web-vitals": "^0.2.1",
     "astro": "^4.7.0"
   },
   "devDependencies": {

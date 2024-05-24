@@ -1,7 +1,8 @@
 import db from '@astrojs/db';
 import { defineConfig } from 'astro/config';
+import webVitals from '@astrojs/web-vitals';
 
-// https://astro.build/config
 export default defineConfig({
-	integrations: [db()],
+  integrations: [db(), webVitals()],
+  output: 'hybrid',
 });
