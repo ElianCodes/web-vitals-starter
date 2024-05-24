@@ -1,14 +1,22 @@
-# Astro Starter Kit: Minimal
+# Astro Starter Kit: Web Vitals
 
-```sh
-npm create astro@latest -- --template minimal
-```
+## 🧠 Web Vitals
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+This starter kit includes a simple example of how to use Web Vitals with Astro & Astro Studio to measure the performance of your site.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Instructions
+
+1. Clone this repository
+1. Run the install command for your packagemanager
+1. Link your Astro project to [Astro Studio](https://studio.astro.build)
+1. Enable the web-vitals app in Astro Studio (see pictures below)
+1. Add your desired Astro Adapter to the code
+1. Push your database to Astro Studio
+1. Deploy your site
+
+![./public/1.png](./public/1.png)
+![./public/2.png](./public/2.png)
+![./public/3.png](./public/3.png)
 
 ## 🚀 Project Structure
 
@@ -18,8 +26,11 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
+│   └── layouts/
+│       └── Default.astro
 │   └── pages/
 │       └── index.astro
+│       └── page-2.astro
 └── package.json
 ```
 
